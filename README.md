@@ -4,6 +4,11 @@ I was stuck at not able to find a reliable SwiftUI library to support "pull to r
 
 So I made my own.
 
+
+## Warning: package ```Introspect``` is needed as a dependency for this solution.
+
+
+
 Demo:
 
 https://github.com/VansonLeung/SwiftUI-RefreshableScrollView/assets/1129695/092fe409-43ab-4dac-bc5a-7f990be4bf71
