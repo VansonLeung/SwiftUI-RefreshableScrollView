@@ -1,9 +1,10 @@
 # SwiftUI-RefreshableScrollView
 
+I was stuck at not able to find a reliable SwiftUI library to support "pull to refresh".
+
+So I made my own.
 
 Demo:
-
-
 
 https://github.com/VansonLeung/SwiftUI-RefreshableScrollView/assets/1129695/092fe409-43ab-4dac-bc5a-7f990be4bf71
 
