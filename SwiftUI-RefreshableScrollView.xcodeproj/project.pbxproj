@@ -11,6 +11,12 @@
 		21699CF22A52F61A001C3593 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21699CF12A52F61A001C3593 /* ContentView.swift */; };
 		21699CF42A52F61C001C3593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21699CF32A52F61C001C3593 /* Assets.xcassets */; };
 		21699CF72A52F61C001C3593 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21699CF62A52F61C001C3593 /* Preview Assets.xcassets */; };
+		21699D042A52FD55001C3593 /* VanRefreshableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21699D032A52FD55001C3593 /* VanRefreshableScrollView.swift */; };
+		21699D132A52FE18001C3593 /* ScrollViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21699D122A52FE18001C3593 /* ScrollViewModifiers.swift */; };
+		21699D152A52FEDF001C3593 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21699D142A52FEDF001C3593 /* Color.swift */; };
+		21699D172A52FEFC001C3593 /* View+onLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21699D162A52FEFC001C3593 /* View+onLoad.swift */; };
+		21699D1A2A530002001C3593 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 21699D192A530002001C3593 /* Introspect */; };
+		21699D1C2A530002001C3593 /* SwiftUIIntrospect in Frameworks */ = {isa = PBXBuildFile; productRef = 21699D1B2A530002001C3593 /* SwiftUIIntrospect */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,10 @@
 		21699CF12A52F61A001C3593 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		21699CF32A52F61C001C3593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21699CF62A52F61C001C3593 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21699D032A52FD55001C3593 /* VanRefreshableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanRefreshableScrollView.swift; sourceTree = "<group>"; };
+		21699D122A52FE18001C3593 /* ScrollViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewModifiers.swift; sourceTree = "<group>"; };
+		21699D142A52FEDF001C3593 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		21699D162A52FEFC001C3593 /* View+onLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+onLoad.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21699D1A2A530002001C3593 /* Introspect in Frameworks */,
+				21699D1C2A530002001C3593 /* SwiftUIIntrospect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +67,10 @@
 				21699CF12A52F61A001C3593 /* ContentView.swift */,
 				21699CF32A52F61C001C3593 /* Assets.xcassets */,
 				21699CF52A52F61C001C3593 /* Preview Content */,
+				21699D032A52FD55001C3593 /* VanRefreshableScrollView.swift */,
+				21699D122A52FE18001C3593 /* ScrollViewModifiers.swift */,
+				21699D142A52FEDF001C3593 /* Color.swift */,
+				21699D162A52FEFC001C3593 /* View+onLoad.swift */,
 			);
 			path = "SwiftUI-RefreshableScrollView";
 			sourceTree = "<group>";
@@ -83,6 +99,10 @@
 			dependencies = (
 			);
 			name = "SwiftUI-RefreshableScrollView";
+			packageProductDependencies = (
+				21699D192A530002001C3593 /* Introspect */,
+				21699D1B2A530002001C3593 /* SwiftUIIntrospect */,
+			);
 			productName = "SwiftUI-RefreshableScrollView";
 			productReference = 21699CEC2A52F61A001C3593 /* SwiftUI-RefreshableScrollView.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,9 @@
 				Base,
 			);
 			mainGroup = 21699CE32A52F61A001C3593;
+			packageReferences = (
+				21699D182A530002001C3593 /* XCRemoteSwiftPackageReference "swiftui-introspect" */,
+			);
 			productRefGroup = 21699CED2A52F61A001C3593 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21699D132A52FE18001C3593 /* ScrollViewModifiers.swift in Sources */,
+				21699D172A52FEFC001C3593 /* View+onLoad.swift in Sources */,
 				21699CF22A52F61A001C3593 /* ContentView.swift in Sources */,
 				21699CF02A52F61A001C3593 /* SwiftUI_RefreshableScrollViewApp.swift in Sources */,
+				21699D152A52FEDF001C3593 /* Color.swift in Sources */,
+				21699D042A52FD55001C3593 /* VanRefreshableScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +366,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		21699D182A530002001C3593 /* XCRemoteSwiftPackageReference "swiftui-introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/swiftui-introspect";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		21699D192A530002001C3593 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21699D182A530002001C3593 /* XCRemoteSwiftPackageReference "swiftui-introspect" */;
+			productName = Introspect;
+		};
+		21699D1B2A530002001C3593 /* SwiftUIIntrospect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21699D182A530002001C3593 /* XCRemoteSwiftPackageReference "swiftui-introspect" */;
+			productName = SwiftUIIntrospect;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 21699CE42A52F61A001C3593 /* Project object */;
 }
